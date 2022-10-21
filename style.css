@@ -1,0 +1,307 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'poppiins, sans-serif';
+}
+
+html,body{
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+
+#navber{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px, 20px;
+    padding: 30px;
+}
+
+#navber div{
+    display: flex;
+    gap: 40px;
+}
+
+#navber div a{
+    color: black;
+}
+
+.navbotton{
+    border-radius: 30px;
+   background-color: lightblue;
+   padding: 20px 30px;
+}
+   
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 60px;
+    background-color: lightblue;
+}
+
+#hero div h1, .aboutus2 h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+#hero div p, .aboutus2 p{
+    font-size: 20px;
+}
+
+#hero img{
+    width: 30%;
+}
+
+#hero div{
+    width: 40%;
+}
+
+#hero2, #lattest{
+    padding: 20px 60px;
+}
+
+.aboutus2{
+    width: 60%;
+}
+
+
+.aboutdiv, .box{
+    display: flex;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin: 30px 0;
+  
+}
+.b{
+    
+    box-shadow: 3px 3px 7px black; 
+}
+
+#lattest{
+    background-color: lightblue;
+}
+
+#lattest img{
+    display: flex;
+    width: 280px;
+}
+.b a{
+    font-size: 10px;
+}
+
+#bottom4{
+    background-color:rgb(10, 10, 57);
+}
+
+.iconimg a{
+    color:white;
+    font-size: 30px;
+    padding-top: 20px;
+
+}
+
+.Aboutus4 a{
+    display: flex;
+    color: white;
+    padding: 5px;
+   
+
+}
+
+.careers a{
+    display: flex;
+    color: white;
+    padding: 5px;
+    
+}
+
+.invi{
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    color: white;
+    background-color: lightblue;
+    padding: 20px;
+  
+}
+
+
+
+
+#bottom4{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+
+}
+
+.ri-arrow-up-s-line{
+    display: block;
+    font-size: 28px;
+}
+@media screen and (max-width:992px) {
+    #hero img{
+    width: 40%;
+}
+
+#hero div h1{
+    font-size: 40px;
+}
+
+#hero2 div h1{
+    font-size: 20px;
+}
+#hero2 div p{
+    font-size: 15px;
+}
+
+.bless div h1{
+font-size: 20px;
+}
+
+.text1{
+    padding: 20px;
+}
+#lattest div h1{
+    font-size: 19px;
+}
+
+.box{
+    display: flex;
+    grid-template-columns: repeat(4, 1fr);
+}
+#lattest img{
+    display: flex;
+    width: 100%;
+    
+}
+#lattest div h1{
+    width: 110;
+}
+#lattest div p{
+    display: flex;
+    width: 120%;
+}
+}
+
+@media screen and (max-width:768px){
+    #hero div h1{
+        font-size: 25px;
+    }
+
+    #hero div p{
+        font-size: 15px;
+    }
+
+    .aboutdiv{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .box{
+        font-size: 13px;
+        gap: 50px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);  
+    }
+    
+    #lattest div p{
+        width: 100%;
+    }
+}
+
+
+    @media screen and (max-width:576px){
+        #hero{
+            flex-direction: column-reverse;
+            justify-content: center;
+        }
+    
+        #navber img{
+            padding-right: 20px;
+         
+        }
+    
+        #hero img{
+            width: 95%;
+        }
+    
+        #hero div{
+            width: 70%;
+            text-align: center;
+        }
+    
+        #hero div h1{
+            font-size: 35px;
+        }
+    
+        #hero div p{
+            width: 100%;
+        }
+    
+        #hero2 div h1{
+            font-size: px;
+        }
+    
+        #hero2 div p{
+            width: 100%;
+        }
+    
+        .aboutus2{
+            width: 70%;
+            text-align: center;
+        }
+
+        
+        .aboutdiv{
+            flex-direction: column-reverse;
+            grid-template-columns: repeat(2, 1fr);
+            font-size: 10px;
+        }
+        .aboutdiv h1{
+            font-size: 20px;
+        }
+        
+        .aboutus2{
+            text-align: center;
+            padding-left: 40px;
+            width: 100%;
+        }
+
+        #lattest{
+            width: 200%;
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        #bottom4{
+            display: flex;
+            text-align: center;
+            flex-direction: column;
+            justify-content: center;
+
+        }
+
+        .Aboutus4{
+            padding: 10px;
+            text-align: center;
+            padding-right: 35px;
+           gap: 10px;
+        }
+
+        .iconimg{
+            text-align: center;
+        }
+        
+        .careers{
+            padding: 10px;
+        }
+       
+        }
+    
+      
