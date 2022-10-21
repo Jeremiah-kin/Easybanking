@@ -221,6 +221,7 @@ font-size: 20px;
         #hero{
             flex-direction: column-reverse;
             justify-content: center;
+            padding: 20px 30px;
         }
     
         #navber img{
@@ -245,10 +246,6 @@ font-size: 20px;
             width: 100%;
         }
     
-        #hero2 div h1{
-            font-size: px;
-        }
-    
         #hero2 div p{
             width: 100%;
         }
@@ -257,15 +254,16 @@ font-size: 20px;
             width: 70%;
             text-align: center;
         }
-
-        
+    
         .aboutdiv{
             flex-direction: column-reverse;
-            grid-template-columns: repeat(2, 1fr);
+            grid-template-columns: repeat(1, 1fr);
             font-size: 10px;
+            text-align: center;
         }
-        .aboutdiv h1{
-            font-size: 20px;
+
+        #hero2 div h1{
+            font-size: 28px;
         }
         
         .aboutus2{
