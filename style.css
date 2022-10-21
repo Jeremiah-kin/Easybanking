@@ -278,17 +278,16 @@ font-size: 20px;
         }
 
         #bottom4{
-            display: flex;
-            text-align: center;
+            display:flex;
+           align-items: center;
             flex-direction: column;
-            justify-content: center;
+          
 
         }
 
         .Aboutus4{
             padding: 10px;
             text-align: center;
-            padding-right: 35px;
            gap: 10px;
         }
 
@@ -297,7 +296,16 @@ font-size: 20px;
         }
         
         .careers{
-            padding: 10px;
+          padding: 10px;
+          text-align: center;
+          gap: 10px;
+          padding-left: 38px;
+          
+           
+        }
+
+        .re{
+            margin-top: 10px;
         }
        
         }
